@@ -1,0 +1,32 @@
+.home__title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #1B31A8;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.home__title span{
+    font-weight: 600;
+}
+
+.sub__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+    margin:0 30px ;
+}
+
+/* responsive */
+@media screen  and (max-width:1024px) {
+    .sub__container{
+        gap: 1rem;
+    }
+}
+@media screen  and (max-width:768px) {
+    .sub__container{
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+}
